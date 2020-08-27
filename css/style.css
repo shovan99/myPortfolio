@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Neuton', serif;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+}
+#heading{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(#bdc3c7 ,#2c3e50);
+    clip-path: polygon(0%0%,100%0%,100%80%,0%100%);
+}
+.jumbotron article{
+    padding-top: 80px;
+}
+section #aboutImg{
+    height: 50vh;
+}
+.bar{
+    width: 50%;
+
+}
+
+@media (max-width: 768px){
+    .jumbotron article{
+        padding-top: 0px;
+    }
+    #worksPage #worksLogo{
+        margin-top: 100px;
+    }
+}
+@media (min-width: 769) and (max-width: 1024px){
+    .jumbotron article{
+        padding-top: 40px;
+    }
+}
